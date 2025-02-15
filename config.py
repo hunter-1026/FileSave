@@ -31,8 +31,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6419671110]
-    for x in (os.environ.get("ADMINS", "6419671110").split()):
+    ADMINS=[5350104697 ]
+    for x in (os.environ.get("ADMINS", "5849725855").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -45,7 +45,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>\n• ʙʏ <a href='https://t.me/zoroflix'>ᴢᴏʀᴏғʟɪx</a></b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>\n• ʙʏ <a href='https://t.me/Anime_Breeze'>ᴢᴏʀᴏғʟɪx</a></b>")
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "") == "True" else False
 
@@ -70,7 +70,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>›› ʜᴇʏ {mention} × 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6419671110)
+ADMINS.append(5350104697)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
