@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"""<b>𝖠𝖻𝗈𝗎𝗍...\n\n›› 𝖬𝖺𝖽𝖾 𝖿𝗈𝗋 : <a href='https://t.me/Sttraw_Hats'>ANIMEZZ_HINDI</a> \n›› 𝖮𝗐𝗇𝖾𝖽 𝖻𝗒 : <a href='tg://openmessage?user_id=6419671110'>LUFFY</a> !! </b>""",
+            text = f"""<b>𝖠𝖻𝗈𝗎𝗍...\n\n›› 𝖬𝖺𝖽𝖾 𝖿𝗈𝗋 : <a href='https://t.me/Anime_Breeze'>Anime_Breeze</a> \n›› 𝖮𝗐𝗇𝖾𝖽 𝖻𝗒 : <a href='tg://openmessage?user_id=5350104697'>Hunter</a> !! </b>""",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
                 [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "home"),
